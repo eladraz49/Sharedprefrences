@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         EditText etname = findViewById(R.id.etname);
         TextView tv = findViewById(R.id.tv);
         SharedPreferences sharedPreferences = getSharedPreferences("alert", MODE_PRIVATE);
-        tv.setText(sharedPreferences.getString("key", "Hello ###"));
+        tv.setText(sharedPreferences.getString("key", "Hello ####"));
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
